@@ -20,6 +20,10 @@ int main(int argc, char* argv[])
     int i;
     double dummy;
 
+    sscanf(argv[1],"%lf",&mu);
+    sscanf(argv[2],"%lf",&sigma);
+    sscanf(argv[3],"%d",&num_dummy);
+
 
 
 
@@ -31,9 +35,9 @@ int main(int argc, char* argv[])
     printf("============================================\n");
 
     srand(RAND_SEED);
-    for(  ){
+    for( i=0;i<num_dummy;i++ ){
         /* r_stdnormを使って，1人のデータを捏造 */
-        dummy =   ;
+        dummy = r_stdnorm() * sigma + mu ;
         printf("%5.2lf\n",dummy);
     }
 
