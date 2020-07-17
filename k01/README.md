@@ -67,3 +67,5 @@ population variance (estimated)：
 - コンパイルしてみましたか？ちゃんと正しい答えが出ましたか？
 - while文の中に何もないので，何も出力されないと思います．while文はcsvファイルを1行ずつ（データを1人ずつ）valに読み取ります．読み取ったvalと前回のループ時の平均などの値を用いて，新しい平均や分散を計算するのが，ave_onlineやvar_onlineになってほしいです．なので，作ったave_onlineやvar_onlineも間違っています．
 
+[comment #20200717 moto]
+- OKです。
