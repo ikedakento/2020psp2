@@ -38,3 +38,20 @@ Likelihood for B：0.000002
 
 ## 修正履歴
 
+[comment #20200717 moto]
+- 原則として「ソースコードのmain関数の中に，数値そのものは書かない」ようにしてください．
+  ```
+  double mu_a = 170.8;
+  double mu_b = 169.7;
+  double sigma_a = 5.43;
+  double sigma_b= 5.5;
+  ```
+  とありますが，これを消して，その代わりに`#include ...`の次の行あたりに，
+  ```
+  #define mu_a 170.8
+  #define sigma_a 5.43
+  #define mu_b 169.7
+  #define sigma_b 5.5
+  ```
+  と書きます．
+  - こうすることで，もしこれらの値を変えたときでも，プログラムの主要な部分に手を加えなくてよくなります．[コーディングのコツです．](../Reference/CodingTips.md)
