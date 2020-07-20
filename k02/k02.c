@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+#define mu_a = 170.8;
+#define mu_b = 169.7;
+#define sigma_a = 5.43;
+#define sigma_b= 5.5;
 
 extern double p_stdnorm(double z);
 
@@ -14,10 +18,6 @@ int main(void)
     double L1=1,L2=1;
     double a;
     double b;
-    double mu_a = 170.8;
-    double mu_b = 169.7;
-    double sigma_a = 5.43;
-    double sigma_b= 5.5;
 
     printf("input the filename of sample:");
     fgets(fname,sizeof(fname),stdin);
