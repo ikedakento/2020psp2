@@ -92,3 +92,7 @@ Num of dummy data: 5
 ## 修正履歴
 [comment #20200717 moto]
 - OKです。
+
+[comment #20200720 sonoda]
+- `gcc -o k03 k03.c`でコンパイルしてできた実行ファイルを動かしたときと，`gcc -o k03 k03.c -DCONST_SEED`でコンパイルしてできた実行ファイルを動かしたときで，それぞれの結果をReadme.mdにコピペしてください．
+- ソースコードはおそらく大丈夫なのでしょう．
