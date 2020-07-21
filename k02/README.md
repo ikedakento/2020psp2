@@ -60,3 +60,6 @@ Likelihood for B：0.000002
 [comment #20200721 moto]
 - #defineで定義する部分は = はいりません。
   一度コンパイルしてみて、エラー内容を確認してみましょう。
+
+  [comment #20200721-2 moto]
+- OKです！
