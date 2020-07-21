@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-#define mu_a = 170.8;
-#define mu_b = 169.7;
-#define sigma_a = 5.43;
-#define sigma_b= 5.5;
+#define mu_a  170.8
+#define mu_b  169.7
+#define sigma_a 5.43
+#define sigma_b 5.5
 
 extern double p_stdnorm(double z);
 
