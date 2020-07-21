@@ -69,3 +69,6 @@ population variance (estimated)：
 
 [comment #20200717 moto]
 - OKです。
+
+[comment #20200720 sonoda]
+- 入出力結果をコピペしてください．ソースコードは大丈夫なのでしょう．
