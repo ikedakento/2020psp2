@@ -61,5 +61,8 @@ Likelihood for B：0.000002
 - #defineで定義する部分は = はいりません。
   一度コンパイルしてみて、エラー内容を確認してみましょう。
 
-  [comment #20200721-2 moto]
+[comment #20200721-2 moto]
 - OKです！
+
+[comment #20200728 sonoda]
+- 課題2の完了を確認しました
