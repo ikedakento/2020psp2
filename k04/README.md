@@ -46,3 +46,6 @@ No data
 
 [comment #20200721 moto]
 - OKです。
+
+[comment #20200721 sonoda]
+- 課題4の完了を確認しました（薗田）
